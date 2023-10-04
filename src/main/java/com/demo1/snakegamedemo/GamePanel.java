@@ -109,7 +109,6 @@ public class GamePanel extends JPanel implements ActionListener {
             }
         }
 
-        // check if head run into walls
         if (x[0] < 0 || x[0] > WIDTH || y[0] < 0 || y[0] > HEIGHT) {
             running = false;
         }
